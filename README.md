@@ -1,5 +1,7 @@
 # vite-plugin-svg-spriter
 
+_Currently work in progress._
+
 Build a svg sprite from individual svgs and inject it in your root html with vite.
 
 ### Install
