@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-svg-spriter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build a svg sprite from individual svgs and inject it in your root html with vite",
   "repository": {
     "type": "git",
