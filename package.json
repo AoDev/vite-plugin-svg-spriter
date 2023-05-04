@@ -7,7 +7,8 @@
     "lint": "eslint src --quiet && tsc --noEmit",
     "build": "del-cli lib && tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "NODE_ENV=production && npm run build"
+    "prepare": "NODE_ENV=production && npm run build",
+    "tag-release": "npm test && standard-version"
   },
   "keywords": [
     "vite",
@@ -29,6 +30,7 @@
     "eslint-config-prettier": "8.8.0",
     "eslint-config-standard-with-typescript": "34.0.1",
     "eslint-plugin-import": "2.27.5",
+    "standard-version": "9.5.0",
     "typescript": "4.9.5"
   }
 }
