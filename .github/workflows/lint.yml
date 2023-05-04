@@ -2,14 +2,17 @@ name: Lint
 
 on:
   push:
-    branches:
-      - main
+    branches: '**'
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.5.1
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2.4.0
+        with:
+          node-version: 16
       - name: Install Dependencies
         run: npm ci
       - name: Run Lint
