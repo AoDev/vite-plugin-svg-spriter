@@ -1,1 +1,1 @@
-export { default } from './createSVGSpritePlugin'
+export {default} from './createSVGSpritePlugin.js'

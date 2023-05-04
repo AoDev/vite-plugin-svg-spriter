@@ -7,6 +7,7 @@
     "url": "git+https://github.com/AoDev/vite-plugin-svg-spriter.git"
   },
   "main": "lib/index.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint src --quiet && tsc --noEmit",
     "build": "del-cli lib && tsc",
